@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Snake Game</h1>
+        <div class="game-area" id="gameArea"></div>
+        <div class="bottom-section">
+            <p>Score: <span id="score">0</span></p>
+            <button id="home" onclick="goHome()">Home</button>
+        </div>
+    </div>
+    <script>
+        function goHome() {
+            window.location.href = "home.html";
+        }
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
