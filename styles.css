@@ -1,11 +1,9 @@
-/* Basic reset for margins and paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styling for Home Page */
 body {
     display: flex;
     justify-content: center;
